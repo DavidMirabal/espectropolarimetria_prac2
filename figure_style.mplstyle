@@ -1,0 +1,35 @@
+figure.figsize: 8, 6
+savefig.facecolor: white
+savefig.dpi: 300
+text.usetex: True
+font.family: serif
+font.serif: Charter
+text.latex.preamble: \usepackage{amsmath}
+font.size: 19
+axes.titlesize: 20
+axes.labelsize: 20
+xtick.minor.visible: True
+ytick.minor.visible: True
+legend.edgecolor: black
+legend.frameon: True
+legend.framealpha: 1
+legend.fancybox: False
+
+
+axes.spines.top   : True       # Mostrar la espina superior
+axes.spines.right : True       # Mostrar la espina derecha
+axes.spines.bottom : True      # Mostrar la espina inferior
+axes.spines.left : True        # Mostrar la espina izquierda
+
+axes.linewidth    : 2          # Grosor de las espinas
+
+# Configuración de las marcas (ticks)
+xtick.major.width : 2          # Grosor de las marcas mayores en el eje x
+xtick.major.size  : 6          # Longitud de las marcas mayores en el eje x
+xtick.minor.width : 1.5        # Grosor de las marcas menores en el eje x
+xtick.minor.size  : 4          # Longitud de las marcas menores en el eje x
+
+ytick.major.width : 2          # Grosor de las marcas mayores en el eje y
+ytick.major.size  : 6          # Longitud de las marcas mayores en el eje y
+ytick.minor.width : 1.5        # Grosor de las marcas menores en el eje y
+ytick.minor.size  : 4          # Longitud de las marcas menores en el eje y
